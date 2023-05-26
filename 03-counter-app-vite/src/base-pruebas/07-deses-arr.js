@@ -1,5 +1,3 @@
-
-
 const personajes = ['Goku','Vegeta','Trunks'];
 const [ , , p3 ] = personajes;
 console.log( p3 );
@@ -24,8 +22,3 @@ const [ nombre, setNombre ] = usState( 'Goku' );
 
 console.log( nombre );
 setNombre();
-
-
-
-
-
